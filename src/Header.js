@@ -8,7 +8,6 @@ import { useSelector } from "react-redux";
 const Header = () => {
   const cart = useSelector((state) => state.cart);
 
- 
   return (
     <nav className="header">
       <Link to="/">
@@ -31,14 +30,14 @@ const Header = () => {
           </div>
         </Link>
 
-        <Link to="/login" className="header-link">
+        <Link to="#" className="header-link">
           <div className="header-option">
             <span className="header-optionLineOne"> Return</span>
-            <span className="header-optionLineTwo"> & Orders</span>
+            <span className="header-optionLineTwo"> & Orders </span>
           </div>
         </Link>
 
-        <Link to="/login" className="header-link">
+        <Link to="#" className="header-link">
           <div className="header-option">
             <span className="header-optionLineOne"> Your</span>
             <span className="header-optionLineTwo"> Prime</span>
