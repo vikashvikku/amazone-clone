@@ -41,6 +41,8 @@ const Checkout = () => {
                 <CheckOutProduct
                   key={item.id}
                   item={item.id}
+                  items={item}
+                  count={item.count}
                   title={item.title}
                   image={item.image}
                   price={item.price}

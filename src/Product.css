@@ -37,3 +37,8 @@
   border: 1px solid;
   border-color: #a88734 #9c7e31 #846a29;
 }
+
+.add-to-cart {
+  cursor: pointer;
+  margin-top: 8px;
+}

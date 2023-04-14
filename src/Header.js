@@ -26,7 +26,7 @@ const Header = () => {
         <Link to="/login" className="header-link">
           <div className="header-option">
             <span className="header-optionLineOne"> Hello</span>
-            <span className="header-optionLineTwo"> Sign In</span>
+            <span className="header-optionLineTwo"> Sign In and </span>
           </div>
         </Link>
 

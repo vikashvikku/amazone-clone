@@ -13,6 +13,12 @@ export const remove_basket = (itemId) => {
 export const emptyBasket = (itemId) => {
   return {
     type: "EMPTY_BASKET",
-    // payload: itemId,
+  };
+};
+
+export const addItem = (count) => {
+  return {
+    type: "ADD_TO_BASKET",
+    payload: count,
   };
 };
